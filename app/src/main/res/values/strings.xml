@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Q1">What method you should override to use Android’s menu which is placed on the action bar?</string>
+    <string name="Q1_a">onCreateOptionsMenu( )</string>
+    <string name="Q1_b">onCreateMenu( )</string>
+    <string name="Q1_c">onMenuCreated( )</string>
+    <string name="Q1_d">onMenuCreated( )</string>
+    <string name="Q2">Which of the following people created the Java programming language?</string>
+    <string name="Q2_a">James Gosling</string>
+    <string name="Q2_b">Mike Sheridan</string>
+    <string name="Q2_c">Steve Wozniak</string>
+    <string name="Q2_d">Patrick Naughton</string>
+    <string name="Q3">What year was the first Apple computer released?</string>
+    <string name="Q3_a">1982</string>
+    <string name="Q3_b">1972</string>
+    <string name="Q3_c">1980</string>
+    <string name="Q3_d">1976</string>
+    <string name="Q4">What does dp in Android stand for?</string>
+    <string name="Q4_a">Dense performance</string>
+    <string name="Q4_b">Density Independent</string>
+    <string name="Q4_c">Deeper Pixels</string>
+    <string name="Q4_d">Done Poorly</string>
+    <string name="Q5">What year was the Swift programming language released?</string>
+    <string name="Q5_hint">Year</string>
+    <string name="Q6">What does the Android project folder “res/” contain?</string>
+    <string name="Q6_a">Values</string>
+    <string name="Q6_b">Layout</string>
+    <string name="Q6_c">Android manifests</string>
+    <string name="Q6_d">Drawable</string>
+    <string name="submit">Submit</string>
+</resources>
