@@ -26,6 +26,7 @@
                     android:id="@+id/q_one_a"
                     style="@style/radio_buttons"
                     android:layout_marginTop="10dp"
+                    android:minHeight="48dp"
                     android:onClick="questionOneAnswered"
                     android:text="@string/Q1_a" />
 
@@ -33,6 +34,7 @@
                     android:id="@+id/q_one_b"
                     style="@style/radio_buttons"
                     android:layout_marginTop="2dp"
+                    android:minHeight="48dp"
                     android:onClick="questionOneAnswered"
                     android:text="@string/Q1_b" />
 
@@ -40,13 +42,16 @@
                     android:id="@+id/q_one_c"
                     style="@style/radio_buttons"
                     android:layout_marginTop="2dp"
+                    android:minHeight="48dp"
                     android:onClick="questionOneAnswered"
-                    android:text="@string/Q1_c" />
+                    android:text="@string/Q1_c"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
 
                 <RadioButton
                     android:id="@+id/q_one_d"
                     style="@style/radio_buttons"
                     android:layout_marginTop="2dp"
+                    android:minHeight="48dp"
                     android:onClick="questionOneAnswered"
                     android:text="@string/Q1_d" />
             </RadioGroup>
@@ -64,24 +69,28 @@
             <CheckBox
                 android:id="@+id/q_two_a"
                 style="@style/checkbox_answers"
+                android:minHeight="48dp"
                 android:onClick="questionTwoAnswered"
                 android:text="@string/Q2_a" />
 
             <CheckBox
                 android:id="@+id/q_two_b"
                 style="@style/checkbox_answers"
+                android:minHeight="48dp"
                 android:onClick="questionTwoAnswered"
                 android:text="@string/Q2_b" />
 
             <CheckBox
                 android:id="@+id/q_two_c"
                 style="@style/checkbox_answers"
+                android:minHeight="48dp"
                 android:onClick="questionTwoAnswered"
                 android:text="@string/Q2_c" />
 
             <CheckBox
                 android:id="@+id/q_two_d"
                 style="@style/checkbox_answers"
+                android:minHeight="48dp"
                 android:onClick="questionTwoAnswered"
                 android:text="@string/Q2_d" />
 
@@ -100,22 +109,26 @@
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionThreeAnswered"
                     android:text="@string/Q3_a" />
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionThreeAnswered"
                     android:text="@string/Q3_b" />
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionThreeAnswered"
                     android:text="@string/Q3_c" />
 
                 <RadioButton
                     android:id="@+id/q_three_d"
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionThreeAnswered"
                     android:text="@string/Q3_d" />
 
@@ -136,22 +149,26 @@
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionFourAnswered"
                     android:text="@string/Q4_a" />
 
                 <RadioButton
                     android:id="@+id/q_four_b"
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionFourAnswered"
                     android:text="@string/Q4_b" />
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionFourAnswered"
                     android:text="@string/Q4_c" />
 
                 <RadioButton
                     style="@style/radio_buttons"
+                    android:minHeight="48dp"
                     android:onClick="questionFourAnswered"
                     android:text="@string/Q4_d" />
 
